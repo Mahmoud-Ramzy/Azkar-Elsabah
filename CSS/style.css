@@ -27,6 +27,12 @@ ul{
     margin-left: auto;
     margin-right: auto;
 }
+/* Tiny phones */
+@media (max-width: 400px) {
+    .container{
+        max-width: 300px;
+    }
+}
  /* Very Small phones */
 @media (max-width:768px) {
     .container{
@@ -169,6 +175,10 @@ section button:hover {
         height: 70px;
         margin: 20px 0 0 0;
     }
+    nav a{
+        padding: 7px;
+        margin-left: 20px;
+    }
 }
 
 span{
@@ -193,3 +203,16 @@ footer{
     padding: 50px;
 }
 /* End footer */
+@media (max-width: 400px) {
+    section{
+        font-size: 15px;
+    }
+    
+    nav{
+        font-size: 14px;
+    }
+    nav a{
+        padding: 7px;
+        margin-left: 20px;
+    }
+}
